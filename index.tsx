@@ -23,7 +23,8 @@ document.addEventListener('DOMContentLoaded', () => {
         // This is for demonstration purposes only.
         console.log('Password successfully set.');
         
-        alert('Sign up form submitted! Check the console for details.');
+        // Redirect to a success page instead of showing an alert
+        window.location.href = 'signup-success.html';
       }
     });
   }
