@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <h1>My App</h1>
+    </header>
+    <main>
+      <div class="login-container">
+        <h2>Create Account</h2>
+        <form id="signup-form">
+          <div class="input-group">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" required />
+          </div>
+          <div class="input-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+           <div class="input-group">
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" name="confirm-password" required />
+          </div>
+          <button type="submit">Sign Up</button>
+        </form>
+        <div class="links">
+          <a href="login.html">Already have an account? Login</a>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="index.tsx"></script>
+  </body>
+</html>
